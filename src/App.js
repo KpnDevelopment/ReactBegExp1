@@ -5,7 +5,8 @@ import Home from './Home';
 import About from './Aboutus';
 import Footer from './Footer'; 
 import Why from './Whyus';
-import Service from './Service'
+import Service from './Service';
+import Form from './FormSection';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <Service/>
       <Why/>
+      <Form/>
       <Footer/>
 
     </div>
