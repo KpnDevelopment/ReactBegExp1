@@ -5,6 +5,7 @@ import Home from './Home';
 import About from './Aboutus';
 import Footer from './Footer'; 
 import Why from './Whyus';
+import Service from './Service'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Home/>
       <About/>
+      <Service/>
       <Why/>
       <Footer/>
 
