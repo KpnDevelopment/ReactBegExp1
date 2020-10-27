@@ -1,0 +1,16 @@
+.home-section {
+    background: #000;
+    padding: 2rem;
+    height: 80vh;
+}
+.home-section h1 {
+    color: #fff;
+    font-size: 5rem;
+    margin-top: 30rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+.home-section p {
+    color: #fff;
+    font-size: 20px;
+}

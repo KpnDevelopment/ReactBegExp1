@@ -1,0 +1,70 @@
+.header-section{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    min-height: 59px;
+    font-size: 1rem;
+    mix-blend-mode: luminosity;
+    background: rgba(0, 0, 0, 0.178);
+    overflow: hidden;
+}
+
+.header-section .logo 
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    position: relative;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.header-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end; 
+    margin-right: 50px
+}
+.header-section ul li
+{
+  margin: 0 1em;
+  padding: 1rem;
+
+}
+
+.header-section ul li a{
+  position: relative;
+  text-decoration: none;
+  text-transform: none;
+  font-weight: 600;
+  font-size: 23px;
+  color: #f4f4f4;
+
+}
+
+
+
+.header-section ul li a::after
+{
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  content: '';
+  width: 0;
+  height: 3px;
+  transition: all 0.2s linear;
+
+}
+.header-section ul li a:hover::after
+{
+  width: 100%;
+  background: #f4f4f4;
+
+}
